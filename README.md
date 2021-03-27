@@ -24,3 +24,21 @@ The diagram below shows us these options.
 
 
 <p align="center"> <img width="800" src= "/Pics/b1.PNG"> </p>
+
+### Query Editor
+
+The diagram below shows the query editor (transform data):
+
+<p align="center"> <img width="800" src= "/Pics/b2.PNG"> </p>
+
+- The top bar contains query editing tools. Functionalities such as table transformations, calculated columns, statistical operations and extraction can all be performed using this.
+- The Home tab includes general settings and common table transformations tools.
+- The Transform tab includes tools to modify existing columns (e.g. splitting/grouping, transposing, extracting text).
+- The Add Column tools create new columns (e.g. based on conditional rules, text operations, calculations, dates).
+- The formula at the top contains M code.
+- The query list below it on the left shows us the docs that we have loaded into the notebook.
+- On the right we have the name of the sheet we have just loaded.
+- Underneath that are all the applied steps we have taken. If we wish to remove the previous step or any step while working on this sheet, we simply press x and the step will undue. It is better to use the least amount of steps as loading the notebook will be quicker if we have a lower number of steps performed.
+
+**The Home Tab:**
+
