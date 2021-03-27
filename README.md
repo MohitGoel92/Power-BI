@@ -22,4 +22,4 @@ Power BI can connect to virtually any type of source data, some of which include
 
 The diagram below shows us these options.
 
-<p align="center"> <img width="200" src= "/Pics/b1.PNG"> </p>
+<p align="center"> <img width="800" src= "/Pics/b1.PNG"> </p>
