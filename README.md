@@ -67,7 +67,7 @@ From the above, we observe that in the transform tab we can:
 - Split a text column based on either a specific delimiter or a number of characters.
 - Format a text column to upper, lower or proper case, or add a prefix or suffix. Trim is used to eliminate leading and trailing spaces.
 - Extract characters from a text column based on fixed lengths, first/last, ranges or delimeters. We can also select two or more columns to merge (or concatenate) fields.
-- 
+-
 
 
 **Note:** We are able to access many of these tools in both the Transform and Add Column menus. The difference is whether we wish to add a new column or modify an existing one.
