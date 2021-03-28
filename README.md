@@ -40,7 +40,7 @@ The diagram below shows the query editor (transform data):
 - On the right we have the name of the sheet we have just loaded.
 - Underneath that are all the applied steps we have taken. If we wish to remove the previous step or any step while working on this sheet, we simply press x and the step will undue. It is better to use the least amount of steps as loading the notebook will be quicker if we have a lower number of steps performed.
 
-**The Home Tab:**
+### The Home Tab
 
 An example of the home tab is given below:
 
@@ -55,4 +55,20 @@ From the above, we observe that in the home tab we can:
 - Promote header row.
 - Duplicate, move & rename columns.
 - Promote header rows (using the first row as column headers)
+
+### The Transform Tab
+
+An example of the transform tab is given below:
+
+<p align="center"> <img width="1200" src= "/Pics/b4.PNG"> </p>
+
+From the above, we observe that in the transform tab we can:
+
+- Split a text column based on either a specific delimiter or a number of characters.
+- Format a text column to upper, lower or proper case, or add a prefix or suffix. Trim is used to eliminate leading and trailing spaces.
+- Extract characters from a text column based on fixed lengths, first/last, ranges or delimeters. We can also select two or more columns to merge (or concatenate) fields.
+- 
+
+
+**Note:** We are able to access many of these tools in both the Transform and Add Column menus. The difference is whether we wish to add a new column or modify an existing one.
 
