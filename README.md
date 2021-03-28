@@ -99,3 +99,8 @@ Pivoting is the process where we turn distinct row values into columns, or turn 
 
 **Note:** Transpose is similar to this, except it doesn't recognise unique values. Instead, the entire table is transformed so that each row becomes a column and vise versa.
 
+### Merging Queries
+
+Merging queries allows you to join tables based on a common column (this is similar to a VLOOKUP in excel).
+
+**Note:** Merging adds columns to an existing table. However, because we can merge tables does not mean we always should. As a general rule, it is better to keep tables seperate and define relationships between them.
