@@ -51,4 +51,4 @@ The diagram below shows the query editor (transform data):
 - Promote header rows (using the first row as column headers)
 
 
-<p align="center"> <img width="1000" src= "/Pics/b3.PNG"> </p>
+<p align="center"> <img width="1200" src= "/Pics/b3.PNG"> </p>
