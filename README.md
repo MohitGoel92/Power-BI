@@ -104,3 +104,14 @@ Pivoting is the process where we turn distinct row values into columns, or turn 
 Merging queries allows you to join tables based on a common column (this is similar to a VLOOKUP in excel).
 
 **Note:** Merging adds columns to an existing table. However, because we can merge tables does not mean we always should. As a general rule, it is better to keep tables seperate and define relationships between them.
+
+### Appending Queries
+
+Appending queries allows us to combine (or stack) tables that share the exact same column structure and data types.
+
+**Note:** Appending adds rows to an existing table.
+
+**Note:** We may use the folder option when loading data to append all the files within the folder automatically, assuming they share the same structure. As we add new files, we are only required to refresh the query and the data sheets will automatically append.
+
+### Data Source Settings
+
