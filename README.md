@@ -42,6 +42,12 @@ The diagram below shows the query editor (transform data):
 
 **The Home Tab:**
 
+An example of the home tab is given below:
+
+<p align="center"> <img width="1200" src= "/Pics/b3.PNG"> </p>
+
+From the above, we observe that in the home tab we can:
+
 - Choose or remove columns.
 - Keep or remove rows.
 - Sort values.
@@ -50,5 +56,3 @@ The diagram below shows the query editor (transform data):
 - Duplicate, move & rename columns.
 - Promote header rows (using the first row as column headers)
 
-
-<p align="center"> <img width="1200" src= "/Pics/b3.PNG"> </p>
