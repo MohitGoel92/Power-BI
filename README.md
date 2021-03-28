@@ -42,3 +42,13 @@ The diagram below shows the query editor (transform data):
 
 **The Home Tab:**
 
+- Choose or remove columns.
+- Keep or remove rows.
+- Sort values.
+- Change data type (date, currency, percentage, text).
+- Promote header row.
+- Duplicate, move & rename columns.
+- Promote header rows (using the first row as column headers)
+
+
+<p align="center"> <img width="1000" src= "/Pics/b3.PNG"> </p>
