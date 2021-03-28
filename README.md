@@ -70,6 +70,7 @@ From the above, we observe that in the Transform Tab we can:
 - Perform statistics functions that allow us to evaluate basic statistics for the selected column (sum, min/max, average, count, countdistinct). These tools will return a single value and are commonly used to explore a table rather than prepare it for loading.
 - Use standard, scientific and trigonometry tools which allow us to apply standard operations such as addition, multiplication and division. We are also able to apply more advanced calculations such as power logarithm, sine and tangent to each value in the column. Unlike the statistics options, these tools are applied to each individual row in the table.
 - Define binary flags via the Information tools (TRUE/FALSE or 1/0) to mark each row in a column as even, off, positive or negative.
+- Group By: This allows us to aggregate our data at a different level (e.g. transforming daily data into monthly). 
 
 **Note:** We are able to access many of these tools in both the Transform and Add Column menus. The difference is whether we wish to add a new column or modify an existing one.
 
@@ -87,3 +88,14 @@ From the above, we observe that in the Add Column Tab we can use the Date and Ti
 - Earliest/Latest: Evaluates the earliest or latest date from a column as a single value (can only be accessed from the "Transform" menu).
 
 **Note:** Most of the time we will be performing these operations from the Add Column menu to build out new fields, rather than transforming an individual date/time column.
+
+**Note:** The Index Columns contain a list of sequential values that can be used to identify each unique row in a table (typically starting from 0 or 1). These columns are often used to create unique IDs that can be used to form relationships between tables.
+
+**Note:** The Conditional Columns function creates a new conditional column with outputs we set according to a criteria. For instance, if we had sales data, we can label a quantity of 1 as "single", anything more than 1 as "multiple" and anything else as other (incase we have odd data).
+
+### Pivoting and Unpivoting
+
+Pivoting is the process where we turn distinct row values into columns, or turn columns into rows (unpivoting).
+
+**Note:** Transpose is similar to this, except it doesn't recognise unique values. Instead, the entire table is transformed so that each row becomes a column and vise versa.
+
