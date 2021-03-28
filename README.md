@@ -42,7 +42,7 @@ The diagram below shows the query editor (transform data):
 
 ### The Home Tab
 
-An example of the home tab is given below:
+An example of the Home Tab is given below:
 
 <p align="center"> <img width="1200" src= "/Pics/b3.PNG"> </p>
 
@@ -62,7 +62,7 @@ An example of the transform tab is given below:
 
 <p align="center"> <img width="1200" src= "/Pics/b4.PNG"> </p>
 
-From the above, we observe that in the transform tab we can:
+From the above, we observe that in the Transform Tab we can:
 
 - Split a text column based on either a specific delimiter or a number of characters.
 - Format a text column to upper, lower or proper case, or add a prefix or suffix. Trim is used to eliminate leading and trailing spaces.
@@ -71,7 +71,7 @@ From the above, we observe that in the transform tab we can:
 - Use standard, scientific and trigonometry tools which allow us to apply standard operations such as addition, multiplication and division. We are also able to apply more advanced calculations such as power logarithm, sine and tangent to each value in the column. Unlike the statistics options, these tools are applied to each individual row in the table.
 - Define binary flags via the Information tools (TRUE/FALSE or 1/0) to mark each row in a column as even, off, positive or negative.
 
-*Note:** We are able to access many of these tools in both the Transform and Add Column menus. The difference is whether we wish to add a new column or modify an existing one.
+**Note:** We are able to access many of these tools in both the Transform and Add Column menus. The difference is whether we wish to add a new column or modify an existing one.
 
 ### The Add Column Tab
 
@@ -79,5 +79,11 @@ An example of the Add Column tab is given below:
 
 <p align="center"> <img width="1200" src= "/Pics/b5.PNG"> </p>
 
-From the above, we observe that in the transform tab we can:
+From the above, we observe that in the Add Column Tab we can use the Date and Time tools that give us to following options:
 
+- Age: Difference between the current time and the date in each row.
+- Date only: Removes the time component of a date/time field.
+- Year/Month/Quarter/Week/Day: Extracts individual components from a date field (Time-specific options include hour, minute, seconds ... etc).
+- Earliest/Latest: Evaluates the earliest or latest date from a column as a single value (can only be accessed from the "Transform" menu).
+
+**Note:** Most of the time we will be performing these operations from the Add Column menu to build out new fields, rather than transforming an individual date/time column.
