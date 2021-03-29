@@ -181,3 +181,15 @@ Normalisation is the process of organising the tables and columns in a relationa
 **In laymens terms:** In a normalised database, each table should serve a distinct and specific purpose (i.e. product information, dates, transaction records, customer attributes ... etc).
 
 Without normalisation, we end up with duplicate information that could have been avoided with a lookup table such as a product index table. Minor inefficiencies like this can be highly business impacting as the database scales in size.
+
+### Data Tables Vs Lookup Tables
+
+Models generally contain two types of tables: Data tables (fact tables) and Lookup tables (dimension tables).
+
+- Data Tables contain values, typically at a granular level with ID's or "key" columns that can be used to create table relationships.
+- Lookup Tables provide descriptive, often text-based attributes about each dimension in a table.
+
+### Primary Vs Foreign Keys
+
+- Primary keys uniquely identify each row of a table and match foreign keys in related data tables.
+- Foreign keys may contain multiple instances of each value and are used to match the primary keys in related lookup tables.
