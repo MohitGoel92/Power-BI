@@ -198,3 +198,14 @@ Models generally contain two types of tables: Data tables (fact tables) and Look
 
 Merged tables create redundant data and utilises significantly more memory and processing power than creating relationships between multiple small tables.
 
+### Creating Table Relationships
+
+We have two options to create table relationships, they are:
+
+**Option 1:** Click and drag to connect the primary and foreign keys within the Relationships pane. This is demonstrated by the picture below.
+
+<p align="center"> <img width="400" src= "/Pics/b9.PNG"> </p>
+
+**Option 2:** Add or detect relationships using the Manage Relationships dialog box. This is demonstrated by the picture below.
+
+<p align="center"> <img width="400" src= "/Pics/b10.PNG"> </p>
