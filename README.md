@@ -125,3 +125,13 @@ By default, all queries in the model will refresh when you use the "Refresh" but
 
 **Note:** Exclude queries that don't change often, like lookups and static data tables. This will make the notebook computationally lighter.
 
+### Defining Hierarchies
+
+Hierarchies are groups of nested columns that reflect multiple levels of granularity. For example, a geographical hierarchy may include continent, country, state, city and town. Each hierarchy can be treated as a single item in tables and reports, allowing users to drill up and drill down through different levels of the hierarchy in a meaningful way.
+
+### Importing Models From Excel
+
+The snippet below demonstrates the menu where we import models into excel:
+
+<p align="center"> <img width="800" src= "/Pics/b6.PNG"> </p>
+
