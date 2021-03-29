@@ -115,3 +115,13 @@ Appending queries allows us to combine (or stack) tables that share the exact sa
 
 ### Data Source Settings
 
+The Data Source Settings button in the Home tab allows us to manage data connections and permissions.
+
+**Note:** Connections to local files reference the exact path. If the file name or location changes, you will need to change the source and browse to the current version.
+
+### Refreshing Queries
+
+By default, all queries in the model will refresh when you use the "Refresh" button from the Home tab. If we do not require a table to refresh as it may be a static data table (e.g. lookup table), in the Query Editor we uncheck "Include in report refresh" to exclude individual queries from the refresh.
+
+**Note:** Exclude queries that don't change often, like lookups and static data tables. This will make the notebook computationally lighter.
+
