@@ -193,3 +193,8 @@ Models generally contain two types of tables: Data tables (fact tables) and Look
 
 - Primary keys uniquely identify each row of a table and match foreign keys in related data tables.
 - Foreign keys may contain multiple instances of each value and are used to match the primary keys in related lookup tables.
+
+### Relationships Vs Merged Tables
+
+Merged tables create redundant data and utilises significantly more memory and processing power than creating relationships between multiple small tables.
+
