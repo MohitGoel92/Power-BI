@@ -158,3 +158,15 @@ Imported models retrain the following:
 
 ### What Is A Data Model?
 
+Let's examine the situation below:
+
+<p align="center"> <img width="400" src= "/Pics/b7.PNG"> </p>
+
+The above is not a data model. It is a collection of independent tables that share no connections or relationships.
+
+Let's examine the situation below:
+
+<p align="center"> <img width="400" src= "/Pics/b8.PNG"> </p>
+
+The above is a data model. The tables are connected via relationships, based on a common key.
+
