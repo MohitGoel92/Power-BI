@@ -135,3 +135,22 @@ The snippet below demonstrates the menu where we import models into excel:
 
 <p align="center"> <img width="800" src= "/Pics/b6.PNG"> </p>
 
+If we have a fully-built model in excel, we can import files built with Power Query/Power Pivot directly into Power BI Desktop using Import>Excel Workbook Contents.
+
+Imported models retrain the following:
+
+- Data source connections and queries.
+- Query editing procedures and applied steps.
+- Table relationships, hierarchies, field settings ... etc.
+- All calculated columns and DAX measures.
+
+**Note:** Power Pivot includes some features that Power BI does not (filtering options, DAX functions help, ... etc); if you are more comfortable in the Excel environment, build your models there and then import to Power BI.
+
+### Things To Remember
+
+- Perform data preprocessing and data cleaning before loading the data into Power BI.
+  - Define clear and intuitive table names (avoid spaces) at the beginning as updating them later can be a headache, especially is you have referenced them in various places.
+  - Establish a logical data/folder structure beforehand to avoid modifying data source settings if file names or locations change.
+- Disable report refresh for all static sources. There is no need to refresh sources that are not updated regularly (or not at all), like lookups or static data tables. It is best to enable refresh for tables that will be changing, for example, live sales data, but the products list may not change frequently or not at all.
+- When working with large tables, only load the data that is required. For instance, do not include hourly data if you only require the daily totals, or product-level transactions when you only care about store-level performance. This is due to extra data only slowing us down.
+- 
