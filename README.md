@@ -153,3 +153,8 @@ Imported models retrain the following:
   - Establish a logical data/folder structure beforehand to avoid modifying data source settings if file names or locations change.
 - Disable report refresh for all static sources. There is no need to refresh sources that are not updated regularly (or not at all), like lookups or static data tables. It is best to enable refresh for tables that will be changing, for example, live sales data, but the products list may not change frequently or not at all.
 - When working with large tables, only load the data that is required. For instance, do not include hourly data if you only require the daily totals, or product-level transactions when you only care about store-level performance. This is due to extra data only slowing us down.
+
+# Creating Table Relationships & Data Models in Power BI
+
+### What Is A Data Model?
+
