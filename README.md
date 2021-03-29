@@ -168,5 +168,5 @@ Let's examine the situation below:
 
 <p align="center"> <img width="400" src= "/Pics/b8.PNG"> </p>
 
-The above is a data model. The tables are connected via relationships, based on a common key.
+The above is a data model. The tables are connected via relationships based on a common key.
 
