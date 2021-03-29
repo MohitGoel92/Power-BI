@@ -170,3 +170,14 @@ Let's examine the situation below:
 
 The above is a data model. The tables are connected via relationships based on a common key.
 
+### Database Normalisation
+
+Normalisation is the process of organising the tables and columns in a relational database to reduce redundancy and preserve data integrity. It's commonly used to:
+
+- Eliminate redundant data to decrease table sizes and improve processing speed and efficiency.
+- Minimise errors and anomalies from data modifications (inserting, updating or deleting records).
+- Simplify queries and structure the database for meaningful analysis.
+
+**In laymens terms:** In a normalised database, each table should serve a distinct and specific purpose (i.e. product information, dates, transaction records, customer attributes ... etc).
+
+Without normalisation, we end up with duplicate information that could have been avoided with a lookup table such as a product index table. Minor inefficiencies like this can be highly business impacting as the database scales in size.
