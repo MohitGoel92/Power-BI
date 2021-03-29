@@ -133,7 +133,7 @@ Hierarchies are groups of nested columns that reflect multiple levels of granula
 
 The snippet below demonstrates the menu where we import models into excel:
 
-<p align="center"> <img width="800" src= "/Pics/b6.PNG"> </p>
+<p align="center"> <img width="400" src= "/Pics/b6.PNG"> </p>
 
 If we have a fully-built model in excel, we can import files built with Power Query/Power Pivot directly into Power BI Desktop using Import>Excel Workbook Contents.
 
