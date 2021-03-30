@@ -222,3 +222,6 @@ By creating relationships from Products to Subcategories (using ProductSubcatego
 
 **Note:** Models with chains of dimension tables are often called snowflake schemas, whereas star schemas usually have individual lookup tables surrounding a central data table.
 
+### Relationship Cardinality
+
+Cardinality refers to the uniqueness of values in a column. For our purposes, all relationships in the data model should follow a "one-to-many" cardinality; one instance of each primary key, but potentially many instances of each foreign key. In the case given below, there is one instance of each ProductKey in the Products table (noted by 1), and there are many instances of each product key in the Sales_Data table (noted by the asterisk \*). This is due to there being multiple sales associated with each product.
