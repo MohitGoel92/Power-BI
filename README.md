@@ -215,3 +215,10 @@ We have two options to create table relationships, they are:
 Let's observe the below tables.
 
 <p align="center"> <img width="400" src= "/Pics/b11.PNG"> </p>
+
+From observation, we notice that the tables do not contain a primary key that is common to all. In this case, we can attempt to create relationships using primary keys common to only two tables at a time. In our case, the Sales_Data table can connect to Products using the ProductKey field, but cannot connect directly to the Subcategories or Categories table. 
+
+By creating relationships from Products to Subcategories (using ProductSubcategoryKey) and Subcategories to Categories (using ProductCategoryKey), we have essentially connected Sales_Data to each lookup table. Filter context will now flow all the way down the chain.
+
+**Note:** Models with chains of dimension tables are often called snowflake schemas, whereas star schemas usually have individual lookup tables surrounding a central data table.
+
