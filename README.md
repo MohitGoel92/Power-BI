@@ -209,3 +209,9 @@ We have two options to create table relationships, they are:
 **Option 2:** Add or detect relationships using the Manage Relationships dialog box. This is demonstrated by the picture below.
 
 <p align="center"> <img width="400" src= "/Pics/b10.PNG"> </p>
+
+### Creating "Snowflake" Schemas
+
+Let's observe the below tables.
+
+<p align="center"> <img width="400" src= "/Pics/b11.PNG"> </p>
