@@ -248,3 +248,8 @@ We can't create a direct active relationship between the Sales_Data and Product_
 
 In the model above, filter context from the Product_Lookup table can be passed down to Returns_Data and up to Territory_Lookup, which would filter accordingly based on the TerritoryKey values passed from the Returns table. If we are able to activate the relationship between Product_Lookup and Sales_data as well, filters could pass from the Product_Lookup table through either the Sales or Returns table to reach the Territory_Lookup, which could yield conflicting filter context.
 
+### Hiding Fields From Report View (For End Users Convenience)
+
+Hiding fields from the Report View makes them inaccessible from the Report Tab (although they can still be accessed within the Data and Relationships view). This is commonly used to prevent users from filtering using invalid fields, or to hide irrelevant metrics from view.
+
+**Note:** Hide the foreign key columns in your data tables to force users to filter using the primary keys in the lookup tables.
