@@ -238,5 +238,13 @@ The filter directions that are shown as arrows in the relationships view will, b
 
 **Note:** It is common practice to arrange the loookup tables above the data tables in the model as a visual reminder that filters flow "downstream".
 
-If we edit the relationship between tables, we can also set the filter direction from single to both which allows the filter context to flow both ways. We will now get the correct data if we use the primary key for a data table and not the lookup table.
+When editing relationships between tables, we can also set the filter direction from single to both which allows the filter context to flow both ways. We will now get the correct data if we use the primary key for a data table and not the lookup table. However, it is advised to only use two-way filters carefully and only when necessary.
+
+If we use multiple two-way filters in a more complex model, we run the risk of creating "ambiguous relationships" by introducing multiple filter paths between tables. Let's examine the below tables.
+
+<p align="center"> <img width="400" src= "/Pics/b13.PNG"> </p>
+
+We can't create a direct active relationship between the Sales_Data and Product_Lookup because that would introduce ambiguity between the tables Product_Lookup and Territory_lookup. To make this relationship active, we must deactivate or delete one of the relationships between Product_Lookup and Territory_Lookup first.
+
+In the model above, filter context from the Product_Lookup table can be passed down to Returns_Data and up to Territory_Lookup, which would filter accordingly based on the TerritoryKey values passed from the Returns table. If we are able to activate the relationship between Product_Lookup and Sales_data as well, filters could pass from the Product_Lookup table through either the Sales or Returns table to reach the Territory_Lookup, which could yield conflicting filter context.
 
