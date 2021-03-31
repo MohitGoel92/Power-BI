@@ -253,3 +253,15 @@ In the model above, filter context from the Product_Lookup table can be passed d
 Hiding fields from the Report View makes them inaccessible from the Report Tab (although they can still be accessed within the Data and Relationships view). This is commonly used to prevent users from filtering using invalid fields, or to hide irrelevant metrics from view.
 
 **Note:** Hide the foreign key columns in your data tables to force users to filter using the primary keys in the lookup tables.
+
+### Things To Remember
+
+- Focus on building a normalised model from the start.
+  - Make sure each table in the model serves a single, distinct purpose.
+  - Use relationships and not merged tables as long and narrow tables are better than short and wide.
+- Organise lookup tables above data tables in the diagram view.
+  - This serves as a visual reminder that filters flow downstream.
+- Avoid complex cross-filtering unless absolutely necessary.
+  - Don't use two-way filters when one-way filters will get the job done.
+- Hide fields from the report view to prevent invalid filter context.
+  - Recommend hiding foreign keys from the data tables so that users can only access valid fields. This will make their work easier and more accurate.
