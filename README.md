@@ -238,3 +238,5 @@ The filter directions that are shown as arrows in the relationships view will, b
 
 **Note:** It is common practice to arrange the loookup tables above the data tables in the model as a visual reminder that filters flow "downstream".
 
+If we edit the relationship between tables, we can also set the filter direction from single to both which allows the filter context to flow both ways. We will now get the correct data if we use the primary key for a data table and not the lookup table.
+
