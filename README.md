@@ -285,4 +285,18 @@ Calculated columns allow us to add new, formula-based columns to tables.
 
 **Note:** As a rule of thumb, use calculated columns when we wish to stamp static, fixed values to each row in a table, or use the query editor. Do not use calculated columns for aggregation formulas, or to calculate fields for the "values" area of a visualisation; use measures instead.
 
+Example, for categorising whether the order was for a single item or multiple items, we have used the below DAX calculation:
+
+```
+QuantityType = IF(AW_Sales[OrderQuantity]>1,"Multiple Items","Single Item")
+```
+
+This will correctly add a column stating whether the order was for single or multiple items. However, if we use the DAX below:
+
+```
+TotalQuantity = SUM(AW_Sales[OrderQuantity])
+```
+
+We will see each cell in the new column be the sum total repeating itself which is not useful at all. We would therefore better off using a DAX measure.
+
 **Note:** Calculated columns are typically used for filtering data, rather than creating numerical values.
