@@ -265,3 +265,24 @@ Hiding fields from the Report View makes them inaccessible from the Report Tab (
   - Don't use two-way filters when one-way filters will get the job done.
 - Hide fields from the report view to prevent invalid filter context.
   - Recommend hiding foreign keys from the data tables so that users can only access valid fields. This will make their work easier and more accurate.
+
+# Analysing Data with DAX Calculations
+
+**DAX:** Data Analysis Exressions.
+
+DAX is the formula language that drives Power BI. With DAX we can:
+
+- Add calculated columns and measures to the model, using intuitive syntax.
+- Go beyond the capabilities of traditional "grid-style" formulas, with powerful and flexible functions built specifically to work with relational data models.
+
+### Calculated Columns
+
+Calculated columns allow us to add new, formula-based columns to tables.
+
+- There is no A1-style references; calculated columns refer to entire tables or columns. In excel, we are able to apply formulas on a cell by cell basis, but in Power BI they impact the whole table or column.
+- Calculated columns generate values for each row, which are visible within tables in the data view.
+- Calculated columns understand row context; they're great for defining properties based on information in each row, but generally useless for aggregation (SUM, COUNT, etc).
+
+**Note:** As a rule of thumb, use calculated columns when we wish to stamp static, fixed values to each row in a table, or use the query editor. Do not use calculated columns for aggregation formulas, or to calculate fields for the "values" area of a visualisation; use measures instead.
+
+**Note:** Calculated columns are typically used for filtering data, rather than creating numerical values.
