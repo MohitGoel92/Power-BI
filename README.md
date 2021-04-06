@@ -300,3 +300,17 @@ TotalQuantity = SUM(AW_Sales[OrderQuantity])
 We will see each cell in the new column be the sum total repeating itself which is not useful at all. We would therefore better off using a DAX measure.
 
 **Note:** Calculated columns are typically used for filtering data, rather than creating numerical values.
+
+### Measures
+
+Measures are DAX formulas used to generate new calculated values.
+
+- Like calculated columns, measures reference entire tables or columns (no A1-style or grid references).
+- Unlike calculated columns, measure values are not visible within tables; they can only seen within a visualisation like aa chart or matrix (similar to a calculated field in an excel pivot).
+- Measures are evaluated based on filter context, which means they recalculate when the fields or filters around them change (like new row or column labels are pulled into a matrix or when new filters are applied to a report).
+
+**Note:** We use measures instead of calculated columns when a single row cannot give you the answer. In other words, when we need to aggregate. We use measures to create numerical, calculated values that can be analysed in the "values" field of a report visual.
+
+### Calculated Columns Vs Measures Summary
+
+<p align="center"> <img width="400" src= "/Pics/b13.PNG"> </p>
