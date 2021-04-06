@@ -313,4 +313,4 @@ Measures are DAX formulas used to generate new calculated values.
 
 ### Calculated Columns Vs Measures Summary
 
-<p align="center"> <img width="400" src= "/Pics/b14.PNG"> </p>
+<p align="center"> <img width="600" src= "/Pics/b14.PNG"> </p>
