@@ -324,3 +324,5 @@ Total Quantity:= SUM(Transactions[quantity])
 ```
 
 - Total Quantity: This is the measure name. It is always surrounded in brackets (i.e. [Total Quantity]) when referenced in formulas, so spaces are okay.
+- SUM: This is the function name. Calculated columns don't always use functions but measures do:
+  - In a calculated column, =Transactions[quantity] 
