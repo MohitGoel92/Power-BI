@@ -325,4 +325,11 @@ Total Quantity:= SUM(Transactions[quantity])
 
 - Total Quantity: This is the measure name. It is always surrounded in brackets (i.e. [Total Quantity]) when referenced in formulas, so spaces are okay.
 - SUM: This is the function name. Calculated columns don't always use functions but measures do:
-  - In a calculated column, =Transactions[quantity] 
+  - In a calculated column, =Transactions[quantity] returns the value from the quantity column in each row, since it evaluates one row at a time.
+  - In a measure, =Transactions[quantity] will return an error since Power BI doesn't know how to translate that as a single value, therefore requiring some sort of aggregation.
+- Transactions[quantity]: Transactions is the referenced table name and quantity is the referenced column name.
+  - This is a fully qualified column, since it is preceeded by the table name, table names with spaces must be surrounded by single quotes.
+    - e.g Without a space: Transactions[quantity]
+    - e.g. With a space: 'Transactions Table'[quantity]
+
+**Note:** For column references, use the fully qualified name (i.e. Table[Column]). For measure references, just use the measure name (i.e. [Measure]).
