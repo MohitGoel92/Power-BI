@@ -333,3 +333,10 @@ Total Quantity:= SUM(Transactions[quantity])
     - e.g. With a space: 'Transactions Table'[quantity]
 
 **Note:** For column references, use the fully qualified name (i.e. Table[Column]). For measure references, just use the measure name (i.e. [Measure]).
+
+### DAX Operators
+
+For some examples of DAX Operators, the tables below summarise a few.
+
+<p align="center"> <img width="600" src= "/Pics/b15.PNG"> </p>
+<p align="center"> <img width="600" src= "/Pics/b16.PNG"> </p>
