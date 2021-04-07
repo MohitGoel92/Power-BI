@@ -340,3 +340,89 @@ For some examples of DAX Operators, the tables below summarise a few.
 
 <p align="center"> <img width="800" src= "/Pics/b15.PNG"> </p>
 <p align="center"> <img width="800" src= "/Pics/b16.PNG"> </p>
+
+### Common Function Categories
+
+**Math and Statistics Functions:** Basic *aggregation* functions as well as *iterations* evaluated at the row-level.
+
+- Common Examples:
+  - SUM
+  - AVERAGE
+  - MAX/MIN
+  - DIVIDE
+  - COUNT/COUNTA
+  - COUNTROWS
+  - DISTINCTCOUNT
+
+- Iterator Functions:
+  - SUMX
+  - AVERAGEX
+  - MAXX/MINX
+  - RANKX
+  - COUNTX
+
+**Logical Functions:** Functions for returning information about values in a given *conditional expressions*.
+
+Common Examples:
+
+- IF
+- IFERROR
+- AND
+- OR
+- NOT
+- SWITCH
+- TRUE
+- FALSE
+
+**Text Functions:** Functions to manipulate *text strings* or *control formats* for dates, times or numbers.
+
+Common Examples:
+
+- CONCATENATE
+- FORMAT
+- LEFT/MID/RIGHT
+- UPPER/LOWER
+- PROPER
+- LEN
+- SEARCH/FIND
+- REPLACE
+- REPT
+- SUBSTITUTE
+- TRIM
+- UNICHAR
+
+**Filter Functions:** *Lookup* functions based on related tables and *filtering* functions for dynamic calculations.
+
+Common Examples:
+
+- CALCULATE
+- FILTER
+- ALL
+- ALLEXCEPT
+- RELATED
+- RELATEDTABLE
+- DICTINCT
+- VALUES
+- EARLIER/EARLIEST
+- HASONEVALUE
+- HASONEFILTER
+- ISFILTERED
+- USERELATIONSHIP
+
+**Date & Time Functions:** Basic *date* and *time* functions as well as advanced *time intelligence* operations.
+
+- Common Examples:
+  - DATEDIFF
+  - YEARFRAC
+  - YEAR/MONTH/DAY
+  - HOUR/MINUTE/SECOND
+  - TODAY/NOW
+  - WEEKDAY/WEEKNUM
+
+- Time Intelligence Functions:
+  - DATESYTD
+  - DATESQTD
+  - DATESMTD
+  - DATEADD
+  - DATESINPERIOD
+
