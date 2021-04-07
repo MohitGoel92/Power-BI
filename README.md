@@ -314,3 +314,12 @@ Measures are DAX formulas used to generate new calculated values.
 ### Calculated Columns Vs Measures Summary
 
 <p align="center"> <img width="600" src= "/Pics/b14.PNG"> </p>
+
+### DAX Syntax
+
+Let's observe the below DAX Syntax:
+
+```
+Total Quantity:= SUM(Transactions[quantity])
+```
+
