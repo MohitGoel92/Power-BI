@@ -338,5 +338,5 @@ Total Quantity:= SUM(Transactions[quantity])
 
 For some examples of DAX Operators, the tables below summarise a few.
 
-<p align="center"> <img width="600" src= "/Pics/b15.PNG"> </p>
-<p align="center"> <img width="600" src= "/Pics/b16.PNG"> </p>
+<p align="center"> <img width="800" src= "/Pics/b15.PNG"> </p>
+<p align="center"> <img width="800" src= "/Pics/b16.PNG"> </p>
