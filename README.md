@@ -432,3 +432,11 @@ For some examples of DAX Operators, the tables below summarise a few.
 - EOMONTH(): Returns the date of the last day of the month, +/- a specified number of months = EOMONTH(StartDate, Months)
 - DATEDIFF(): Returns the difference between two dates, based on a selected interval = DATEDIFF(Date1, Date2, Interval)
 
+### Basic Logical Functions (IF/AND/OR)
+
+- IF(): Checks if a given condition is met, and returns one value if the condition is *TRUE*, and another if the condition is *FALSE* = IF(LogicalTest, ResultIfTrue, [ResultIfFalse])
+- IFERROR(): Evaluates an expression and returns a specified value if the expression returns an error, otherwise returns the expression itself = IFERROR(Value, ValueIfError)
+- AND(): Checks whether both arguments are *TRUE*, and returns *TRUE* if both arguments are *TRUE*, otherwise returns *FALSE* = AND(Logical1, Logical2)
+- OR(): Checks whether one of the arguments is *TRUE* to return *TRUE*, and returns *FALSE* if both arguments are *FALSE* = OR(Logical1, Logical2)
+
+**Note:** For the AND() and OR() functions, we are restricted to only two conditions. However, if we use the && and || operators we can include more than two conditions.
