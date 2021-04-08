@@ -423,3 +423,12 @@ For some examples of DAX Operators, the tables below summarise a few.
   - DATEADD
   - DATESINPERIOD
 
+### Basic Date & Time Functions
+
+- DAY/MONTH/YEAR(): Returns the day of the month (1-31), month of the year (1-12), or year of a given date = DAY/MONTH/YEAR(Date)
+- HOUR/MINUTE/SECOND(): Returns the hour (0-23), minute (0-59), or second (0-59) of a given datetime value = HOUR/MINUTE/SECOND(Datetime)
+- TODAY/NOW(): Returns the current date or exact time = TODAY/NOW()
+- WEEKDAY/WEEKNUM(): Returns a weekday number from 1 (Sunday) to 7 (Saturday), or the week number of the year = WEEKDAY/WEEKNUM(Date, [ReturnType])
+- EOMONTH(): Returns the date of the last day of the month, +/- a specified number of months = EOMONTH(StartDate, Months)
+- DATEDIFF(): Returns the difference between two dates, based on a selected interval = DATEDIFF(Date1, Date2, Interval)
+
