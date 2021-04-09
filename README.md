@@ -461,3 +461,11 @@ The columnName is the column that contains the values we wish to retrieve.
 
 **Note:** Avoid using RELATED to create redundant calculated columns unless you absolutely need them, since those extra columns increase file size; instead, use RELATED within a measure like FILTER or SUMX.
 
+### Basic Maths & Stats Functions
+
+- SUM(): Evaluates the sum of a column = SUM(ColumnName)
+- AVERAGE(): Returns the average (arithmetic mean) of all the numbers in a column = AVERAGE(ColumnName)
+- MAX(): Returns the largest value in a column or between two scalar expressions = MAX(ColumnName), MAX(Scalar1, [Scalar2])
+- MIN(): Returns the smallest value in a column or between two scalar expressions = MIN(ColumnName), MIN(Scaral1, [Scalar2])
+- DIVIDE(): Performs division and returns the alternate result (or blannk) if div/0 = DIVIDE(Numerator, Denominator, [AlternateResult])
+
