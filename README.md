@@ -451,3 +451,13 @@ For some examples of DAX Operators, the tables below summarise a few.
 - SUBSTITUTE(): REPLACES an instance of existing text with new text in a string = SUBSTITUTE(Text, OldText, NewText, [InstanceNumber])
 - SEARCH(): Returns the position where a specified string or character is found, reading left to right = SEARCH(FindText, WithinText, [StartPosition],[NotFoundValue])
 
+### Related
+
+- RELATED(): Returns related values in each row of a table based on relationships with other tables = RELATED(ColumnName)
+
+The columnName is the column that contains the values we wish to retrieve.
+
+*RELATED* works almost exactly like a VLOOKUP function - it uses the relationship between tables (defined by primary and foreign keys) to pull values from one table into a new column of another. Since this function requires row context, it can be used as a calculated column or as part of an iterator function that cycles through all the rows in a table (FILTER, SUMX, MAXX, etc).
+
+**Note:** Avoid using RELATED to create redundant calculated columns unless you absolutely need them, since those extra columns increase file size; instead, use RELATED within a measure like FILTER or SUMX.
+
