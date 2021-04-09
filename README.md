@@ -469,3 +469,9 @@ The columnName is the column that contains the values we wish to retrieve.
 - MIN(): Returns the smallest value in a column or between two scalar expressions = MIN(ColumnName), MIN(Scaral1, [Scalar2])
 - DIVIDE(): Performs division and returns the alternate result (or blannk) if div/0 = DIVIDE(Numerator, Denominator, [AlternateResult])
 
+### COUNT, COUNTA, DISTINCTCOUNT AND COUNTROWS
+
+- COUNT(): Counts the number of cells in a column that contains numbers = COUNT(ColumnName)
+- COUNTA(): Counts the number of non-empty cells in a column (numerical and non-numerical) = COUNTA(ColumnName)
+- DISTINCTCOUNT(): Counts the number of distinct or unique values in a column = DISTINCTCOUNT(ColumnName)
+- COUNTROWS(): Counts the number of rows in the specified table, or a table defined by an expression = COUNTROWS(Table)
