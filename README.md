@@ -440,3 +440,14 @@ For some examples of DAX Operators, the tables below summarise a few.
 - OR(): Checks whether one of the arguments is *TRUE* to return *TRUE*, and returns *FALSE* if both arguments are *FALSE* = OR(Logical1, Logical2)
 
 **Note:** For the AND() and OR() functions, we are restricted to only two conditions. However, if we use the && and || operators we can include more than two conditions.
+
+### Text Functions
+
+- LEN(): Returns the number of characters in a string = LEN(Text)
+- CONCATENATE(): Joins two text strings into one = CONCATENATE(Text1, Text2)
+  - **Note:** We can use the & operator as a shortcut, or to combine more than two strings.
+- LEFT/MID/RIGHT(): Returns a number of characters from the start/middle/end of a text string = LEFT/RIGHT(Text, [NumChars]), MID(Text, StartPosition, NumChars)
+- UPPER/LOWER/PROPER(): Converts letters in a string to upper/lower/proper case = UPPER/LOWER/PROPER(Text)
+- SUBSTITUTE(): REPLACES an instance of existing text with new text in a string = SUBSTITUTE(Text, OldText, NewText, [InstanceNumber])
+- SEARCH(): Returns the position where a specified string or character is found, reading left to right = SEARCH(FindText, WithinText, [StartPosition],[NotFoundValue])
+
