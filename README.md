@@ -486,3 +486,11 @@ The CALCULATE function is similar to the *where* clause in SQL.
 
 **Note:** CALCULATE works just like SUMIF or COUNTIF in Excel, except it can evaluate measures based on ANY sort of calculation (not just a sum, count ... etc); it may help to think of it like "CALCULATEIF".
 
+### ALL
+
+- ALL(): Returns all the rows in a table, or all values in a column, ignoring any filters that have been applied = ALL(Table or ColumnName, [ColumnName1], [ColumnName2], ...)
+  - Table or ColumnName that we want to clear filters on. E.g. Transactions, Products[ProductCategory].
+  - [ColumnName1], [ColumnName2], ... is the list of columns that we want to clear filters on (optional). If the first parameter is a table, we cannot specialise additional columns. All columns must include the table name, and come from the same table. E.g. Customer_Lookup[CustomerCity], Customer_Lookup[CustomerCountry], Products[ProductName].
+
+**Note:** Instead of adding filter context, ALL removes it. This is often used when we need to unfilter values that will not react to changes in filter context (i.e. % of total, where the denominator needs to remain fixed).
+
