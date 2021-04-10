@@ -475,3 +475,14 @@ The columnName is the column that contains the values we wish to retrieve.
 - COUNTA(): Counts the number of non-empty cells in a column (numerical and non-numerical) = COUNTA(ColumnName)
 - DISTINCTCOUNT(): Counts the number of distinct or unique values in a column = DISTINCTCOUNT(ColumnName)
 - COUNTROWS(): Counts the number of rows in the specified table, or a table defined by an expression = COUNTROWS(Table)
+
+### CALCULATE
+
+The CALCULATE function is similar to the *where* clause in SQL.
+
+- CALCULATE(): Evaluates a given expression or formula under a set of defined filters = CALCULATE(Expression, [Filter1], [Filter2], ...)
+  - The *Expression* is the name of an existing measure or DAX formula for a valid measure. E.g. [Total Orders], SUM(Returns_Data[ReturnQuantity]).
+  - [Filter1], [Filter2] ... represent a list of simple Boolean (True/False) filter expressions (**Note:** These require simple and fixed values; we cannot create filters based on measures.) E.g. Territory_Lookup[Country] = "USA", Calendar[Year] > 1998.
+
+**Note:** CALCULATE works just like SUMIF or COUNTIF in Excel, except it can evaluate measures based on ANY sort of calculation (not just a sum, count ... etc); it may help to think of it like "CALCULATEIF".
+
