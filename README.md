@@ -504,3 +504,14 @@ The CALCULATE function is similar to the *where* clause in SQL.
 
 **Note:** Since FILTER iterates through each row in a table, it can be slow and processor-intensive. Therefore, it is better to avoid using FILTER if a CALCULATE function will accomplish the same thing.
 
+### ITERATOR ("X") FUNCTIONS
+
+Iterator (or "X") functions allow us to loop through the same calculations or expression on each row of a table, and then apply some sort of aggregation to the results (SUM, MAX, etc).
+
+- Iterator (X) function = SUMX(Table, Expression)
+  - SUMX is the aggregation to apply  to calculated rows. E.g. SUMX, COUNTX, AVERAGEX, RANKX, MAXX/MINX.
+  - "Table" is the table in which the expression will be evaluated. E.g. Sales, FILTER(Sales, RELATED(Products[Category]) = "Clothing")
+  - "Expression" is the expression to be evaluated for each row of the given table. E.g. [Total Orders], Sales[RetailPrice] * Sales[Quantity]
+
+**Note:** This function should be visualised as adding a temporary new column to the table, calculating the value in each row (based on the expression) and then applying the aggregation to that new column (like SUMPRODUCT).
+
