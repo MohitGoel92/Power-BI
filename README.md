@@ -527,3 +527,24 @@ Time Intelligence functions allow you to easily calculate common time comparison
   - -10, DAY: Select an interval (DAY, MONTH, QUARTER, or YEAR) and the number of intervals to compare (i.e. rolling 10-day)
 
 **Note:** To calculate a moving average, use the running total calculation above and divide by the number of intervals.
+
+### Things To Remember: Calculated Columns and Measures
+
+- Don't use a calculated column when a measure will do the trick.
+  - Only use calculated columns to stamp static, fixed values to each row in a table.
+  - Use measures when aggregation is necessary, or to create dynamic values in a report.
+- Write measures for even the simplest calculations (i.e. Sum of Sales)
+  - Once you create a measure it can be used anywhere in a report and as an input to other, more complex calculations (no implicit measures).
+- Break measures down into simple, component parts.
+  - DAX is a difficult language to master; focus on assembling simple components into more advanced formulas.
+- Referene columns with the table name, and measures alone.
+  - Using fully qualified column references (preceeded by the table name) helps make formulas more readable and intuitive, and differentiates them from measure references.
+
+### Things To Remember: Speed and Performance
+
+- Eliminate redundant columns and keep data tables narrow.
+  - Data tables should ideally only contain quantitative values and foreign keys; any extra descriptive columns can usually live in a related lookup table.
+- Imported columns are better than calculated columns.
+  - When possible, create calculated columns at the source (i.e. in the raw database) or within the Query Editor. This is more efficient than processing those calculations in the Data Model.
+- Minimise iterator functions (FILTER, SUMX ... etc).
+  - Functions that cycle through each row in a table are computationally expensive. This means they take time and consume processing power.
