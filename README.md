@@ -494,3 +494,13 @@ The CALCULATE function is similar to the *where* clause in SQL.
 
 **Note:** Instead of adding filter context, ALL removes it. This is often used when we need to unfilter values that will not react to changes in filter context (i.e. % of total, where the denominator needs to remain fixed).
 
+### FILTER
+
+- FILTER(): Returns a table that represents a subset of another table or expression = FILTER(Table, FilterExpression)
+  - "Table" is the table that is to be filtered. E.g. Territory_Lookup, Customer_Lookup.
+  - "FilterExpression" is a Boolean (True/False) filter expression to be evaluated for each row of the table. E.g. Territory_Lookup[Country] = "USA", Calendar[Year] = 1998, Products[Price] > [Overall Avg Price]. This goes through the table row-by-row (iterative) and keeps or discards the rows of the data depending on whether it satisfies the FilterExpression. This produces a new table which is a subset of the original table.
+
+**Note:** FILTER is used to add new filter context, and can handle more complex filter expressions than CALCULATE (by referencing measure for example). Since FILTER returns an entire table, it's almost always used as an input to other functions, like CALCULATE or SUMX.
+
+**Note:** Since FILTER iterates through each row in a table, it can be slow and processor-intensive. Therefore, it is better to avoid using FILTER if a CALCULATE function will accomplish the same thing.
+
