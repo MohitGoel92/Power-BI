@@ -469,7 +469,7 @@ The columnName is the column that contains the values we wish to retrieve.
 - MIN(): Returns the smallest value in a column or between two scalar expressions = MIN(ColumnName), MIN(Scaral1, [Scalar2])
 - DIVIDE(): Performs division and returns the alternate result (or blannk) if div/0 = DIVIDE(Numerator, Denominator, [AlternateResult])
 
-### COUNT, COUNTA, DISTINCTCOUNT AND COUNTROWS
+### COUNT, COUNTA, DISTINCTCOUNT and COUNTROWS
 
 - COUNT(): Counts the number of cells in a column that contains numbers = COUNT(ColumnName)
 - COUNTA(): Counts the number of non-empty cells in a column (numerical and non-numerical) = COUNTA(ColumnName)
@@ -504,7 +504,7 @@ The CALCULATE function is similar to the *where* clause in SQL.
 
 **Note:** Since FILTER iterates through each row in a table, it can be slow and processor-intensive. Therefore, it is better to avoid using FILTER if a CALCULATE function will accomplish the same thing.
 
-### ITERATOR ("X") FUNCTIONS
+### Iterator ("X") Functions
 
 Iterator (or "X") functions allow us to loop through the same calculations or expression on each row of a table, and then apply some sort of aggregation to the results (SUM, MAX, etc).
 
@@ -515,3 +515,15 @@ Iterator (or "X") functions allow us to loop through the same calculations or ex
 
 **Note:** This function should be visualised as adding a temporary new column to the table, calculating the value in each row (based on the expression) and then applying the aggregation to that new column (like SUMPRODUCT).
 
+### Time Intelligence Formulas
+
+Time Intelligence functions allow you to easily calculate common time comparisons:
+
+- Performance to-date = CALCULATE(Measure, DATESYTD(Calendar[Date]))
+  - Use DATESQTD for quarters or DATESMTD for months.
+- Previous period = CALCULATE(Measure, DATEADD(Calendar[Date], -1, MONTH))
+  - -1, MONTH: Select an interval (DAY, MONTH, QUARTER, or YEAR) and the number of intervals to compare (i.e. previous month).
+- Running total = CALCULATE(Measure, DATESINPERIOD(Calendar[Date], MAX(Calendar[Date]), -10, DAY).
+  - -10, DAY: Select an interval (DAY, MONTH, QUARTER, or YEAR) and the number of intervals to compare (i.e. rolling 10-day)
+
+**Note:** To calculate a moving average, use the running total calculation above and divide by the number of intervals.
