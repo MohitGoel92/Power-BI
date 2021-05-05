@@ -587,4 +587,4 @@ Click on a visualisation type or use the "New Visual" option in the Home tab to 
 
 A short summary of the formatting options is given below:
 
-<p align="center"> <img width="1000" src= "/Pics/b23.PNG"> </p>
+<p align="center"> <img width="1000" src= "/Pics/b23.png"> </p>
