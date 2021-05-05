@@ -548,3 +548,12 @@ Time Intelligence functions allow you to easily calculate common time comparison
   - When possible, create calculated columns at the source (i.e. in the raw database) or within the Query Editor. This is more efficient than processing those calculations in the Data Model.
 - Minimise iterator functions (FILTER, SUMX ... etc).
   - Functions that cycle through each row in a table are computationally expensive. This means they take time and consume processing power.
+
+# Visualising Data with Power BI Report View
+
+The key parts of the report view are given below:
+
+- The View options include Layout, Gridlines, Snap to Grid, Bookmarks/Selection Pane. An image is given below:
+
+<p align="center"> <img width="800" src= "/Pics/b17.PNG"> </p>
+
