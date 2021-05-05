@@ -588,3 +588,14 @@ Click on a visualisation type or use the "New Visual" option in the Home tab to 
 A short summary of the formatting options is given below:
 
 <p align="center"> <img width="1000" src= "/Pics/b23.png"> </p>
+
+### Filtering Options
+
+In Power BI reporting, we have four primary filter types, they are:
+
+- 1.) **Visual Level:** Applies only to the specific visual in which it is defined.
+- 2.) **Page Level:** Applies to all visuals on the specific page in which it is defined.
+- 3.) **Report Level:** Applies to all visuals across all pages of the report.
+- 4.) **Drillthrough:** Applies to specific pages, and dynamically changes based on user paths.
+
+**Note:** Filter settings include basic, advanced and Top N options.
