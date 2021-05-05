@@ -575,4 +575,4 @@ The key parts of the report view are given below:
 
 - The Report Pages are similar to Excel Tabs as they all start as a blank reporting canvas. An image is given below:
 
-<p align="center"> <img width="300" src= "/Pics/b22.PNG"> </p>
+<p align="center"> <img width="400" src= "/Pics/b22.PNG"> </p>
