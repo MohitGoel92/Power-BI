@@ -576,3 +576,15 @@ The key parts of the report view are given below:
 - The Report Pages are similar to Excel Tabs as they all start as a blank reporting canvas. An image is given below:
 
 <p align="center"> <img width="400" src= "/Pics/b22.PNG"> </p>
+
+### Inserting Objects and Basic Charts
+
+Click on a visualisation type or use the "New Visual" option in the Home tab to insert a blank chart template (usually a column chart by default). Alternatively we can drag a field or measure directly into the report canvas to automatically generate a new visual.
+
+**Note:** We can also add New Pages, Buttons, Text Boxes, Images and Shapes from this menu.
+
+### Formatting Options
+
+A short summary of the formatting options is given below:
+
+<p align="center"> <img width="1000" src= "/Pics/b23.PNG"> </p>
