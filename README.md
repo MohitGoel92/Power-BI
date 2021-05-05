@@ -604,4 +604,4 @@ In Power BI reporting, we have four primary filter types, they are:
 
 Report interactions allow us to determine how filters applied to one visual impact others. For example, by selecting the Timeline visual and enabling "Edit interactions" from the Format tab, we can manually determine which visuals should "react" when the date range changes. The image below is used to illustrate this.
 
-<p align="center"> <img width="1000" src= "/Pics/b24.png"> </p>
+<p align="center"> <img width="1000" src= "/Pics/b24.PNG"> </p>
