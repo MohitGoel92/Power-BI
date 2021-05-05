@@ -605,3 +605,8 @@ In Power BI reporting, we have four primary filter types, they are:
 Report interactions allow us to determine how filters applied to one visual impact others. For example, by selecting the Timeline visual and enabling "Edit interactions" from the Format tab, we can manually determine which visuals should "react" when the date range changes. The image below is used to illustrate this.
 
 <p align="center"> <img width="1000" src= "/Pics/b24.PNG"> </p>
+
+For certain types of visuals, a third option allows us to "highlight" sub-segments of the data, rather than simply filtering Vs not filtering. For instance, when the interaction mode is set to "filter", selecting a category will produce a filtered list of subcategories in the relevant/corresponding visual. However, when the interaction mode is set to "highlight", selecting a category will produce the same list as pre-selection but the relevant data will be highlighted in the relevant/corresponding visual.
+
+### Adding & Linking Bookmarks
+
