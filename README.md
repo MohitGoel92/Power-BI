@@ -553,7 +553,26 @@ Time Intelligence functions allow you to easily calculate common time comparison
 
 The key parts of the report view are given below:
 
-- The View options include Layout, Gridlines, Snap to Grid, Bookmarks/Selection Pane. An image is given below:
+- The View options include Layout, Gridlines, Snap to Grid, Bookmarks and Selection Pane. An image is given below:
 
 <p align="center"> <img width="800" src= "/Pics/b17.PNG"> </p>
 
+- The Visualisation options include Charts, Slicers, Maps and Matrices. An image is given below:
+
+<p align="center"> <img width="800" src= "/Pics/b18.PNG"> </p>
+
+- The Fields/Format/Analytics Pane is used for selecting the relevant data to display. An image is given below:
+
+<p align="center"> <img width="800" src= "/Pics/b19.PNG"> </p>
+
+- The Filters Pane includes Visual-Level, Page-Level, Report-Level and Drillthrough Filters. An image is given below:
+
+<p align="center"> <img width="800" src= "/Pics/b20.PNG"> </p>
+
+- The Field List includes Tables, Columns and Measures. An image is given below:
+
+<p align="center"> <img width="800" src= "/Pics/b21.PNG"> </p>
+
+- The Report Pages are similar to Excel Tabs as they all start as a blank reporting canvas. An image is given below:
+
+<p align="center"> <img width="800" src= "/Pics/b22.PNG"> </p>
