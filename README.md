@@ -629,5 +629,5 @@ Parameter Value = SELECTEDVALUE(Parameter[Parameter], 0)
 
 Roles allow you to define filtered views that can be tailored to specific audiences. For instance, if we have analysts in seperate regions like Europe, North America, and the Pacific, we can create seperate views based on simple DAX filter statements. This is beneficial if other regions are not allowed to view the data for other regions. The two screenshots below are used to illustrate what this will look like.
 
-<p align="center"> <img width="1000" src= "/Pics/b261.PNG"> </p>
-<p align="center"> <img width="1000" src= "/Pics/b271.PNG"> </p>
+<p align="center"> <img width="1000" src= "/Pics/b261.jpg"> </p>
+<p align="center"> <img width="1000" src= "/Pics/b271.jpg"> </p>
