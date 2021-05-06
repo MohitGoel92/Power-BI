@@ -631,3 +631,13 @@ Roles allow you to define filtered views that can be tailored to specific audien
 
 <p align="center"> <img width="1000" src= "/Pics/b261.jpg"> </p>
 <p align="center"> <img width="1000" src= "/Pics/b271.jpg"> </p>
+
+### Importing Custom Visuals
+
+In the visualisations pane, click the three dots and add the desired visualisation.
+
+### Desktop Vs Phone Layout
+
+The Phone Layout view allows us to design on a canvas size optimised for mobile viewing (Vs desktop).
+
+**Note:** You can't actually build content within the Phone Layout view; recommend building in Desktop Layout and assembling select visuals for mobile if we plan to share content via the Power BI app.
