@@ -625,3 +625,5 @@ Parameter = GENERATESERIES(-1, 1, 0.1)
 Parameter Value = SELECTEDVALUE(Parameter[Parameter], 0)
 ```
 
+### Managing & Viewing As Roles
+
