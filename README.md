@@ -614,4 +614,14 @@ A practical use for a bookmark is to direct the viewer of the report to a new pa
 
 ### "WHAT-IF" Parameters
 
+"What If" Parameters are essentially pre-set measures that produce values within a given range, based on user-inputs (data type, min/max, increment and default). These tools come in handy for forecasting or scenario testing. In our Power BI notebook we have created a "Price Adjustment %" parameter in order to compare Total Revenue (based on the actual price) against Adjusted Revenue (based on the parameter-adjusted price). To clarify this, a screenshot is given below.
+
 <p align="center"> <img width="1000" src= "/Pics/b25.PNG"> </p>
+
+**Note:** When you create a parameter, a new table is automatically added with DAX calculations for "Parameter" and "Parameter Value". This will look something like the below:
+
+```
+Parameter = GENERATESERIES(-1, 1, 0.1)
+Parameter Value = SELECTEDVALUE(Parameter[Parameter], 0)
+```
+
