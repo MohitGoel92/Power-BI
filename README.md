@@ -612,3 +612,6 @@ For certain types of visuals, a third option allows us to "highlight" sub-segmen
 
 A practical use for a bookmark is to direct the viewer of the report to a new page where we can present key insights. We insert a button on the page and link it to a bookmark using the object "Action" property. We are now able to create a narrative from the data and really bring our insights to life.
 
+### "WHAT-IF" Parameters
+
+<p align="center"> <img width="1000" src= "/Pics/b25.PNG"> </p>
