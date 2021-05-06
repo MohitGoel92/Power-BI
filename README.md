@@ -641,3 +641,14 @@ In the visualisations pane, click the three dots and add the desired visualisati
 The Phone Layout view allows us to design on a canvas size optimised for mobile viewing (Vs desktop).
 
 **Note:** You can't actually build content within the Phone Layout view; recommend building in Desktop Layout and assembling select visuals for mobile if we plan to share content via the Power BI app.
+
+### Things To Remember: Data Visualisation Best Practices
+
+- Strive for clarity & simplicity, above all else.
+  - Aim to maximise impact and minimise noise; it's all about balancing design and function.
+- Don't just build charts and graphs, rather, create a narrative.
+  - Without context, data is meaningless. Therefore, using filters, bookmarks, and effective visualisations to translate raw data into powerful insights and implications.
+- We must always ask ourselves these three key questions:
+  - 1.) What type of data are you visualising? (Integer, categorical, time-series, geo-spatial ... etc)
+  - 2.) What are you trying to communicate (Relationships, compositions, trending ... etc)
+  - 3.) Who is the end user consuming this information? (Analyst, CEO, client, intern ... etc)
