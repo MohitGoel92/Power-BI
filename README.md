@@ -675,6 +675,6 @@ The Phone Layout view allows us to design on a canvas size optimised for mobile 
 # References
 
 
-[1](https://www.stitchdata.com/resources/7-reasons-power-bi/). 7 reasons to use Microsoft Power BI
+[1] (https://www.stitchdata.com/resources/7-reasons-power-bi/). 7 reasons to use Microsoft Power BI
 
-[2] 
+[2] (https://community.powerbi.com/t5/COVID-19-Data-Stories-Gallery/COVID-19-Coronavirus-dashboard-Global-pandemic/td-p/978109). COVID-19 Coronavirus dashboard - Global pandemic
