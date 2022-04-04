@@ -29,7 +29,10 @@ In Power BI Desktop, users can:
 
 Below is an example report which shows a dashboard of the Covid-19 pandemic. [2]
 
-<p align="center"> <img width="800" src= "/Pics/Intro_1.png"> </p>
+
+<p align="center"> <img width="1000" src= "/Pics/Intro_1.png"> </p>
+
+
 
 
 # Connecting and Shaping Data with Power BI Desktop
