@@ -27,7 +27,9 @@ In Power BI Desktop, users can:
 - Create reports and dashboards that are collections of visuals
 - Share reports with others using the Power BI service
 
+Below is an example report which shows a dashboard of the Covid-19 pandemic. [2]
 
+<p align="center"> <img width="800" src= "/Pics/Intro_1.png"> </p>
 
 
 # Connecting and Shaping Data with Power BI Desktop
