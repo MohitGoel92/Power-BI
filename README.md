@@ -8,7 +8,7 @@ Regardless of your current level of knowledge, I am sure this repository will be
 
 ## Sections
 
-- **Introducing Power BI Desktop:** Why Power BI is required, why you should learn it and the installing Power BI.
+- **Introducing Power BI Desktop:** Why Power BI is required, why you should learn it and installing Power BI.
 - **Connecting and Shaping Data:** Connecting to source data, shaping and transforming tables, editing, merging and appending queries .. etc.
 - **Creating a Data Model:** Building relational models, creating table relationships, understanding cardinality, exploring filter flow ... etc.
 - **Adding Calculated Fields with DAX:** Understanding DAX syntax, adding calculated columns and measures, writing common formulas and functions ... etc.
@@ -43,8 +43,9 @@ Below is an example report which shows a dashboard of the Covid-19 pandemic. [2]
 - Built-in machine learning features can analyze data and help users spot valuable trends and make educated predictions.
 - Powerful personalisation capabilities allow users to create dashboards so they can access the data they need quickly. [3]
 
+### Installation link for Power BI
 
-
+https://powerbi.microsoft.com/en-gb/
 
 # Connecting and Shaping Data with Power BI Desktop
 
@@ -56,7 +57,6 @@ Power BI can connect to virtually any type of source data, some of which include
 - Others (Web feeds, R scripts, Spark, Hadoop)
 
 The diagram below shows us these options.
-
 
 <p align="center"> <img width="800" src= "/Pics/b1.PNG"> </p>
 
