@@ -17,7 +17,7 @@ Regardless of your current level of knowledge, I am sure this repository will be
 
 # Introducing Power BI Desktop
 
-Power BI Desktop is a free, self-service data analysis and report authoring tool that you install on a Windows computer. It can connect to more than 70 on-premises and cloud data sources to turn information into interactive visuals. Data scientists and developers work with Power BI Desktop to produce reports and make them available to the Power BI service. [1]
+Power BI Desktop is a free, self-service data analysis and report authoring tool that you install on a Windows computer. It can connect to more than 70 on-premises and cloud data sources to turn information into interactive visuals. Data scientists and developers work with Power BI Desktop to produce reports and make them available to the Power BI service [1]. 
 
 In Power BI Desktop, users can:
 
@@ -29,8 +29,19 @@ In Power BI Desktop, users can:
 
 Below is an example report which shows a dashboard of the Covid-19 pandemic. [2]
 
-
 <p align="center"> <img width="1000" src= "/Pics/Intro_1.png"> </p>
+
+**Advantages of using Power BI** [1] [3]
+
+- Power BI is quick to setup and is intuitive to use like Excel. 
+- Powerful insights can be produced with little to no training. This includes charts, graphs, reports, dashboards, a collection of visuals, data cleaning and connecting to data sources. The platform also integrates with other popular business management tools like SharePoint, Office 365, and Dynamics 365, as well as other non-Microsoft products like Spark, Hadoop, Google Analytics, SAP, Salesforce, and MailChimp.
+- Visualisations can be uploaded to the Power BI service, with the data refreshing whenever the underlying dataset is updated.
+- Power BI reports provide real time information which is beneficial to an organisation as time-sensitive data can be collected or transmitted. Alerts can also be set up on KPIs to keep users informed on important metrics and measurements.
+- Good security features as you are able to give specific privileges to each user so they only have access to the information they are supposed to.
+- Users can verbally ask questions in natural language (Cortana) to access charts and graphs. This makes getting data highly user friendly, especially for mobile devices or non-technical users.
+- Businesses can input huge quantities of data into Power BI that many other platforms would struggle to process.
+- Built-in machine learning features can analyze data and help users spot valuable trends and make educated predictions.
+- Powerful personalisation capabilities allow users to create dashboards so they can access the data they need quickly.
 
 
 
@@ -680,6 +691,8 @@ The Phone Layout view allows us to design on a canvas size optimised for mobile 
 # References
 
 
-[1](https://www.stitchdata.com/resources/7-reasons-power-bi/). 7 reasons to use Microsoft Power BI
+[1](https://www.stitchdata.com/resources/7-reasons-power-bi/).  7 reasons to use Microsoft Power BI.
 
-[2](https://community.powerbi.com/t5/COVID-19-Data-Stories-Gallery/COVID-19-Coronavirus-dashboard-Global-pandemic/td-p/978109). COVID-19 Coronavirus dashboard - Global pandemic
+[2](https://community.powerbi.com/t5/COVID-19-Data-Stories-Gallery/COVID-19-Coronavirus-dashboard-Global-pandemic/td-p/978109).  COVID-19 Coronavirus dashboard - Global pandemic.
+
+[3](https://www.nigelfrank.com/insights/everything-you-ever-wanted-to-know-about-microsoft-power-bi).  Everything you ever wanted to know about Microsoft Power BI
