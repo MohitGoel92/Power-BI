@@ -31,7 +31,7 @@ Below is an example report which shows a dashboard of the Covid-19 pandemic. [2]
 
 <p align="center"> <img width="1000" src= "/Pics/Intro_1.png"> </p>
 
-**Advantages of using Power BI** [1] [3]
+### Advantages of using Power BI
 
 - Power BI is quick to setup and is intuitive to use like Excel. 
 - Powerful insights can be produced with little to no training. This includes charts, graphs, reports, dashboards, a collection of visuals, data cleaning and connecting to data sources. The platform also integrates with other popular business management tools like SharePoint, Office 365, and Dynamics 365, as well as other non-Microsoft products like Spark, Hadoop, Google Analytics, SAP, Salesforce, and MailChimp.
@@ -41,7 +41,7 @@ Below is an example report which shows a dashboard of the Covid-19 pandemic. [2]
 - Users can verbally ask questions in natural language (Cortana) to access charts and graphs. This makes getting data highly user friendly, especially for mobile devices or non-technical users.
 - Businesses can input huge quantities of data into Power BI that many other platforms would struggle to process.
 - Built-in machine learning features can analyze data and help users spot valuable trends and make educated predictions.
-- Powerful personalisation capabilities allow users to create dashboards so they can access the data they need quickly.
+- Powerful personalisation capabilities allow users to create dashboards so they can access the data they need quickly. [3]
 
 
 
