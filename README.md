@@ -1,6 +1,6 @@
 # Power-BI
 
-This repository is used to deliver a complete course on Power BI that will take a complete Power BI novice to a level of business proficiency. Power BI is not only highly user friendly, engaging and beautifully designed, it is absolutely essential for analytics and business intelligence. Whether you are trying to get your first role in data analytics, business intelligence or wish to simply brush up on your skills, this course will be a highly practical way to make you perform like a pro. Learning a skill like Power BI will open up career doors that you thought were not applicable to you.
+This repository is used to deliver a complete course on Power BI that will take a complete Power BI novice to a level of business proficiency. Power BI is not only highly user friendly, insightful and beautifully designed, it is absolutely essential for analytics and business intelligence. Whether you are trying to get your first role in data analytics, business intelligence or wish to simply brush up on your skills, this course will be a highly practical way to make you perform like a pro. Learning a skill like Power BI will open up career doors that you thought were not applicable to you.
 
 In this course we have Power BI files where we explore a wide variety of different techniques to analyse the data for different business tasks. This knowledge is then put into pracice using real-world business tasks. The main aim of this course is to guide an individual to produce **dashboards** and acquaint them with Power BI functionalities such as **DAX** (data analysis expressions).
 
@@ -15,8 +15,17 @@ Regardless of your current level of knowledge, I am sure this repository will be
 - **Visualising Data with Reports:** Inserting charts and visuals, customising formats, editing interactions, applying filters and bookmarks ... etc.
 - **Project:** Building a pro quality B.I. report from a new dataset.
 
-# Why Power BI?
+# Introducing Power BI Desktop
 
+Power BI Desktop is a free, self-service data analysis and report authoring tool that you install on a Windows computer. It can connect to more than 70 on-premises and cloud data sources to turn information into interactive visuals. Data scientists and developers work with Power BI Desktop to produce reports and make them available to the Power BI service. [1]
+
+In Power BI Desktop, users can:
+
+- Connect to data
+- Transform and model the data
+- Create charts and graphs
+- Create reports and dashboards that are collections of visuals
+- Share reports with others using the Power BI service
 
 
 
@@ -662,3 +671,10 @@ The Phone Layout view allows us to design on a canvas size optimised for mobile 
   - 1.) What type of data are you visualising? (Integer, categorical, time-series, geo-spatial ... etc)
   - 2.) What are you trying to communicate (Relationships, compositions, trending ... etc)
   - 3.) Who is the end user consuming this information? (Analyst, CEO, client, intern ... etc)
+
+# References
+
+
+[1](https://www.stitchdata.com/resources/7-reasons-power-bi/). 7 reasons to use Microsoft Power BI
+
+[2] 
