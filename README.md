@@ -8,15 +8,16 @@ Regardless of your current level of knowledge, I am sure this repository will be
 
 ## Sections
 
-- **Why Power BI?:** Why Power BI is required and why you should learn it.
-- **Introducing Power BI Desktop:** Installing Power BI, exploring Power BI workflow, comparing Power BI vs Excel ... etc.
+- **Introducing Power BI Desktop:** Why Power BI is required, why you should learn it and the installing Power BI.
 - **Connecting and Shaping Data:** Connecting to source data, shaping and transforming tables, editing, merging and appending queries .. etc.
 - **Creating a Data Model:** Building relational models, creating table relationships, understanding cardinality, exploring filter flow ... etc.
 - **Adding Calculated Fields with DAX:** Understanding DAX syntax, adding calculated columns and measures, writing common formulas and functions ... etc.
 - **Visualising Data with Reports:** Inserting charts and visuals, customising formats, editing interactions, applying filters and bookmarks ... etc.
 - **Project:** Building a pro quality B.I. report from a new dataset.
 
-## Introduction
+# Why Power BI?
+
+
 
 
 
