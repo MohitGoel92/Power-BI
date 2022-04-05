@@ -31,7 +31,7 @@ Below is an example report which shows a dashboard of the Covid-19 pandemic. [2]
 
 <p align="center"> <img width="1000" src= "/Pics/Intro_1.png"> </p>
 
-The example dashboard above gives us detailed information that can be understood simply by inspection. In addition to all the charts and diagrams, we also notice drop down menus at the top of the dashboard. This means users can extract the specific information that's required and drill down to their chosen level of granularity. This fascinating thing about a dashboard like the above is, although it is highly detailed and almost like a work of art, it is relatively quick to create and once created, it will update itself with new data.
+The example dashboard above gives us detailed information that can be understood simply by inspection. In addition to all the charts and diagrams, we also notice drop down menus at the top of the dashboard. This means users can extract the specific information that's required and drill down to their chosen level of granularity. The fascinating thing about a dashboard like the above is, although it is highly detailed and almost like a work of art, it is relatively quick to create and once created, it will update itself with new data.
 
 ### Advantages of using Power BI
 
