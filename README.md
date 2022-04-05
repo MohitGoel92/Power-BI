@@ -31,7 +31,7 @@ Below is an example report which shows a dashboard of the Covid-19 pandemic. [2]
 
 <p align="center"> <img width="1000" src= "/Pics/Intro_1.png"> </p>
 
-From the above dashboard, we observe a dashboard that gives detailed information that can be learnt simply from inspection. In addition to all the charts and diagrams, we also notice drop down menus at the top of the dashboard. This means users can extract the specific information that's required and drill down to their chosen level of granularity.
+We observe a dashboard that gives detailed information that can be learnt simply from inspection. In addition to all the charts and diagrams, we also notice drop down menus at the top of the dashboard. This means users can extract the specific information that's required and drill down to their chosen level of granularity.
 
 ### Advantages of using Power BI
 
