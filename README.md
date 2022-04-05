@@ -9,10 +9,10 @@ Regardless of your current level of knowledge, I am sure this repository will be
 ## Sections
 
 - **Introducing Power BI Desktop:** What Power BI is and installation.
-- **Connecting and Shaping Data:** Connecting to source data, shaping and transforming tables, editing, merging and appending queries .. etc.
-- **Creating a Data Model:** Building relational models, creating table relationships, understanding cardinality, exploring filter flow ... etc.
-- **Adding Calculated Fields with DAX:** Understanding DAX syntax, adding calculated columns and measures, writing common formulas and functions ... etc.
-- **Visualising Data with Reports:** Inserting charts and visuals, customising formats, editing interactions, applying filters and bookmarks ... etc.
+- **Connecting and Shaping Data:** Connecting to source data, shaping and transforming tables, editing, merging and appending queries.
+- **Creating a Data Model:** Building relational models, creating table relationships, understanding cardinality, exploring filter flow.
+- **Adding Calculated Fields with DAX:** Understanding DAX syntax, adding calculated columns and measures, writing common formulas and functions.
+- **Visualising Data with Reports:** Inserting charts and visuals, customising formats, editing interactions, applying filters and bookmarks.
 - **Project:** Building a pro quality B.I. report from a new dataset.
 
 # Introducing Power BI Desktop
