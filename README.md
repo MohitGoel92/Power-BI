@@ -123,7 +123,7 @@ An example of the Add Column tab is given below:
 
 <p align="center"> <img width="1200" src= "/Pics/b5.PNG"> </p>
 
-From the above, we observe that in the Add Column Tab we can use the Date and Time tools that give us to following options:
+From the above, we observe that in the Add Column Tab we can use the Date and Time tools that give us the following options:
 
 - Age: Difference between the current time and the date in each row.
 - Date only: Removes the time component of a date/time field.
