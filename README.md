@@ -42,7 +42,7 @@ The example dashboard above gives us detailed information that can be understood
 - Good security features as you are able to give specific privileges to each user so they only have access to the information they are supposed to.
 - Users can verbally ask questions in natural language (Cortana) to access charts and graphs. This makes getting data highly user friendly, especially for mobile devices or non-technical users.
 - Businesses can input huge quantities of data into Power BI that many other platforms would struggle to process.
-- Built-in machine learning features can analyze data and help users spot valuable trends and make educated predictions.
+- Built-in machine learning features can analyse data and help users spot valuable trends and make educated predictions.
 - Powerful personalisation capabilities allow users to create dashboards so they can access the data they need quickly. [3]
 
 ### Installation link for Power BI
