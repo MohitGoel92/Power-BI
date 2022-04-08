@@ -2,7 +2,7 @@
 
 This repository is used to deliver a complete course on Power BI that will take a complete Power BI novice to a level of business proficiency. Power BI is not only highly user friendly, insightful and beautifully designed, it is absolutely essential for analytics and business intelligence. Whether you are trying to get your first role in data analytics, business intelligence or wish to simply brush up on your skills, this course will be a highly practical way to make you perform like a pro. Learning a skill like Power BI will open up career doors that you thought were not applicable to you.
 
-In this course we have Power BI files where we explore a wide variety of different techniques to analyse the data. This knowledge is then put into pracice using real-world business tasks. The main aim of this course is to guide an individual to produce **dashboards** and acquaint them with Power BI functionalities such as **DAX** (data analysis expressions).
+In this course we have Power BI files where we explore a wide variety of different techniques to analyse the data. This knowledge is then put into practice using real-world business tasks. The main aim of this course is to learn how to to produce **dashboards** and get acquainted with Power BI functionalities such as **DAX** (data analysis expressions).
 
 Regardless of your current level of knowledge, I am sure this repository will be of use. Please see below the list of topics that will be covered and the order in which they should be approached. This makes the course easier to navigate incase you only need to learn a specific topic. I hope you enjoy the course as much as I have enjoyed making it and teaching students and colleagues just like you.
 
