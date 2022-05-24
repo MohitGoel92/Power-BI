@@ -2,7 +2,7 @@
 
 This repository is used to deliver a complete course on Power BI that will take a complete Power BI novice to a level of business proficiency. Power BI is not only highly user friendly, insightful and beautifully designed, it is absolutely essential for analytics and business intelligence. Whether you are trying to get your first role in data analytics, business intelligence or wish to simply brush up on your skills, this course will be a highly practical way to make you perform like a pro. Learning a skill like Power BI will open up career doors that you thought were not applicable to you.
 
-In this course we have Power BI files where we explore a wide variety of different techniques to analyse the data. This knowledge is then put into practice using real-world business tasks. The main aim of this course is to learn how to to produce **dashboards** and get acquainted with Power BI functionalities such as **DAX** (data analysis expressions).
+In this course we have Power BI files where we explore a wide variety of different techniques to analyse the data. This knowledge is then put into practice using real-world business tasks. The main aim of this course is to learn how to produce **dashboards** and get acquainted with Power BI functionalities such as **DAX** (data analysis expressions).
 
 Regardless of your current level of knowledge, I am sure this repository will be of use. Please see below the list of topics that will be covered and the order in which they should be approached. This makes the course easier to navigate incase you only need to learn a specific topic. I hope you enjoy the course as much as I have enjoyed making it and teaching students and colleagues just like you.
 
@@ -44,6 +44,30 @@ The example dashboard above gives us detailed information that can be understood
 - Businesses can input huge quantities of data into Power BI that many other platforms would struggle to process.
 - Built-in machine learning features can analyse data and help users spot valuable trends and make educated predictions.
 - Powerful personalisation capabilities allow users to create dashboards so they can access the data they need quickly. [3]
+
+### Components of Power BI
+
+- Power Query: Data transformation tool.
+- Power Pivot: In-memory tabular data modelling tool.
+- Power View: Data visualisation tool.
+- Power Map: 3D Geo-spatial data visualisation tool.
+- Power Q&A: Natural language question and answering engine.
+- Power BI Desktop: A powerful companion development tool for Power BI.
+- PowerBI.com Website: Where data analysis can be shared through the website and hosted as a cloud service.
+- Power BI Mobile Apps: Supported in Android, Apple, and Windows Phones.
+
+### Architecture of Power BI
+
+- Data Sources: File Types, Database, Azure, Online Services, ... etc.
+- Power BI Desktop: A free software that enables us to connect, transform and visualise that data on your desktop.
+- Power BI Service: Free version, Pro version, and Premium version.
+- Power BI Gateway
+- Power BI Mobile Apps
+- Power BI Embedded
+- Power BI Query
+- Power Pivot
+- Power View
+- Power Q&A
 
 ### Installation link for Power BI
 
