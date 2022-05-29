@@ -76,8 +76,8 @@ https://powerbi.microsoft.com/en-us/downloads/
 Once downloaded, perform the below three steps whilst taking this course:
 
 - Preview Features: Options -> Preview features -> Deselect anything that is ticked. This is to ensure we are working with the same tools as, depending on when you take this course there is a high probability of developments to have taken place. 
-- Data Load: Options -> Data Load -> Deselect "Update or delete relationships when refreshing data" and "Autodetect new relationships after data is loaded". This is so we manually do the work to understand what is going on for learning purposes.
-- Regional Settings: Options -> Regional Settings -> English (United States). This is because the dates are in US formation (Month-Day-Year). If you select other regions, you may encounter errors.
+- Data Load: Options -> Current File -> Data Load -> Deselect "Update or delete relationships when refreshing data" and "Autodetect new relationships after data is loaded". This is so we manually do the work to understand what is going on for learning purposes.
+- Regional Settings: Options -> Current File -> Regional Settings -> English (United States). This is because the dates are in US formation (Month-Day-Year). If you select other regions, you may encounter errors.
 
 # Connecting and Shaping Data with Power BI Desktop
 
